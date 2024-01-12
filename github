@@ -1,0 +1,23 @@
+/*terraform {
+  required_providers {
+    github = {
+      source  = "integrations/github"
+      version = "~> 5.0"
+    }
+  }
+}
+
+# Configure the GitHub Provider
+provider "github" {
+    token = "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"
+}
+
+
+resource "github_repository" "example" {
+  name        = "example"
+  description = "My awesome codebase"
+
+  visibility = "public"
+
+}
+*/
